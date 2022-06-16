@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Ohmyfood</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ohmyfood est un site qui répertorie les menus de restaurants gastronomiques. Cet outil permet aux clients de composer le menu de leur repas pour que les plats soient prêts à leur arrivée.">
+        <link rel="stylesheet" href="css/style.css">        
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header class="header">
+            <a><img class="header__logo" src="images/logo/ohmyfood.png" alt="Logo Ohmyfood"></a>
+        </header>
+
+        <!-- Location -->
+        <section class="location">
+            <span class="location__logo"><i class="fas fa-map-marker-alt"></i></span>
+            <input type="text" class="location__search" placeholder="Paris, Belleville">
+        </section>
+
+        <!-- Section Restaurants -->
+        <section class="restaurants">
+            <h2>Réservez le menu qui vous convient</h2>
+            <p class="restaurants__description">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+            <a href="#cards" class="btn">Explorer nos restaurants</a>
+        </section>
+
+        <!-- Section Steps -->
+        <section class="steps">
+            <h2>Fonctionnement</h2>
+            <div class="steps__list">
+                <div class="step">
+                    <span class="step__icon"><i class="fas fa-mobile-alt"></i></span>
+                    <h3 class="step__title">Choisissez un restaurant</h3>
+                    <span class="step__number">1</span>
+                </div>
+                <div class="step">
+                    <span class="step__icon"><i class="fas fa-list-ul"></i></span>
+                    <h3 class="step__title">Composez votre menu</h3>
+                    <span class="step__number">2</span>
+                </div>
+                <div class="step">
+                    <span class="step__icon"><i class="fas fas fa-store"></i></span>
+                    <h3 class="step__title">Dégustez au restaurant</h3>
+                    <span class="step__number">3</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Cards -->
+        <section id="cards" class="cards">
+            <h2>Restaurants</h2>
+            <div class="cards__list">
+                <div class="card">
+                    <a href="Menu-Palette-Gout.html">
+                        <img class="card__img" src="Images/restaurants/palette-gout.jpg" alt="La palette du goût">
+                    </a>
+                    <div class="card__body">
+                        <div class="card__description">
+                            <h3 class="card_title">La palette du goût</h3>
+                            <h4 class="card__city">Ménilmontant</h4>
+                        </div>
+                        <boutton class="btn-like">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-heart"></i>
+                        </boutton>
+                    </div>
+                    <span class="card__status">Nouveau</span>
+                </div>
+                <div class="card">
+                    <a href="Menu-Note-Enchantee.html">
+                        <img class="card__img" src="Images/restaurants/note-enchante.jpg" alt="La note enchantée">
+                    </a>
+                    <div class="card__body">
+                        <div class="card__description">
+                            <h3 class="card_title">La note enchantée</h3>
+                            <h4 class="card__city">Charonne</h4>
+                        </div>
+                        <boutton class="btn-like">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-heart"></i>
+                        </boutton>
+                    </div>
+                    <span class="card__status">Nouveau</span>
+                </div>
+                <div class="card">
+                    <a href="Menu-French.html">
+                        <img class="card__img" src="Images/restaurants/french.jpg" alt="À la française">
+                    </a>
+                    <div class="card__body">
+                        <div class="card__description">
+                            <h3 class="card_title">À la française</h3>
+                            <h4 class="card__city">Cité rouge</h4>
+                        </div>
+                        <boutton class="btn-like">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-heart"></i>
+                        </boutton>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="Menu-Delice-Sens.html">
+                        <img class="card__img" src="Images/restaurants/delice-sens.jpg" alt="Le délice des sens">
+                    </a>
+                    <div class="card__body">
+                        <div class="card__description">
+                            <h3 class="card_title">Le délice des sens</h3>
+                            <h4 class="card__city">Folie-Méricourt</h4>
+                        </div>
+                        <boutton class="btn-like">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-heart"></i>
+                        </boutton>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h2 class="footer__title">ohmyfood</h2>
+            <ul class="footer__link">
+                <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
+                <li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li>
+                    <address>
+                        <a href="mailto:ton@ohmyfood.com">Contact</a>
+                    </address>
+                </li>
+            </ul>
+        </footer>
+    </body>
+
+</html>
