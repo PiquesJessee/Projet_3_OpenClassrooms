@@ -12,6 +12,12 @@ section {
     padding: 40px 20px;
 }
 
+@media only screen and (min-width: 992px) {
+    section {
+        padding: 64px;
+    }
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -136,6 +142,7 @@ h2 {
     position: absolute;
     left: -13px;
 }
+
 @media only screen and (min-width: 768px) {
     .steps__list {
         display: flex;
@@ -205,6 +212,7 @@ h2 {
     right: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   }
+
 @media only screen and (min-width: 992px) {
     .cards__list {
         display: flex;
@@ -221,9 +229,11 @@ h2 {
 /* Footer */
 
 .footer {
+    padding: 20px;
     background: #353535;
     color: #FFF;
   }
+
   .footer__title {
     font-family: "Shrikhand", cursive;
     font-weight: normal;
@@ -231,16 +241,20 @@ h2 {
     text-transform: lowercase;
     margin-bottom: 20px;
   }
+
   .footer li {
     margin-bottom: 10px;
   }
+
   .footer li a:hover {
     color: #cccccc;
   }
+
   .footer li i {
     margin-right: 5px;
     font-size: 14px;
   }
+  
   .footer li address {
     font-style: normal;
   }
