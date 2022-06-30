@@ -45,6 +45,11 @@ h2 {
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
 }
 
+.btn-like {
+    position: relative;
+    font-size: 1.875rem;
+}
+
 /* Header */
 
 .header {
@@ -254,7 +259,7 @@ h2 {
     margin-right: 5px;
     font-size: 14px;
   }
-  
+
   .footer li address {
     font-style: normal;
   }
