@@ -193,7 +193,6 @@ h2 {
     border-radius: 16px;
     margin-bottom: 16px;
     animation: plateappear 500ms;
-    scale: (0);
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     display: flex;
@@ -212,6 +211,8 @@ h2 {
 .plate__title {
     font-weight: 900;
     margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .plate__composition {
